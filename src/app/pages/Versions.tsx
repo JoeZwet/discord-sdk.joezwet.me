@@ -27,7 +27,7 @@ const Versions: React.FC = () => {
       });
 
       setLabels(tempLabels);
-      setItems(itemsTemp.reverse);
+      setItems(itemsTemp.reverse());
     });
   }, []);
 
