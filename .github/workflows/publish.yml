@@ -29,7 +29,8 @@ jobs:
         with:
           source: "build/."
           target: "docs/"
-          flags: "-r"
+          args: "-r"
+
       - name: publish site
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
