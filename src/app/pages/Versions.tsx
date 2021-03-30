@@ -69,10 +69,7 @@ const getTypeForVersion = (version: string, labels: LabelsData | null | undefine
 }
 
 const mapVersionsToTimelineItem = (versions: Array<VersionData>, labels: LabelsData) => {
-  const out = versions.map((value: VersionData) => <TimelineVersion key={value.version} version={value} labels={labels} />);
-  console.log(out);
-
-  return out;
+  return versions.map((value: VersionData) => <TimelineVersion key={value.version} version={value} labels={labels} />);
 }
 
 export default Versions;
