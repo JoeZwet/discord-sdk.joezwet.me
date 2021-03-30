@@ -1,9 +1,6 @@
-name: Publish Tag
+name: Publish Release
 
-on:
-  push:
-    branches:
-      - refs/tags/*
+on: [release]
 
 jobs:
   publish:
