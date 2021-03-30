@@ -16,11 +16,7 @@ jobs:
           node-version: 10.x
       - run: yarn install
       - run: yarn build
-      - uses: canastro/copy-action@0.0.2
-        with:
-          source: "./build/."
-          target: "./docs/"
-          args: "-a"
+      - run: "cp -a ./build/. ./docs/"
       - name: publish site
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
