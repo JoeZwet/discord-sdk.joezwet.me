@@ -7,26 +7,26 @@ const SiteHeader: React.FC = () => {
         <>
             <Header>
                 <Header.Item>
-                    <Header.Link href="/" fontSize={2}>
+                    <Header.Link href="#/" fontSize={2}>
                         <StyledOcticon icon={RocketIcon} size={32} mr={2}/>
                         <span>Discord Game Sdk</span>
                     </Header.Link>
                 </Header.Item>
                 <Header.Item full />
                 <Header.Item>
-                    <Header.Link href="/" fontSize={2}>
+                    <Header.Link href="#/" fontSize={2}>
                         <StyledOcticon icon={HomeIcon} size={16} mr={2}/>
                         <span>Home</span>
                     </Header.Link>
                 </Header.Item>
                 <Header.Item>
-                    <Header.Link href="/versions" fontSize={2}>
+                    <Header.Link href="#/versions" fontSize={2}>
                         <StyledOcticon icon={TagIcon} size={16} mr={2}/>
                         <span>Versions</span>
                     </Header.Link>
                 </Header.Item>
                 <Header.Item>
-                    <Header.Link href="/packages" fontSize={2}>
+                    <Header.Link href="#/packages" fontSize={2}>
                         <StyledOcticon icon={PackageIcon} size={16} mr={2}/>
                         <span>Packages</span>
                     </Header.Link>

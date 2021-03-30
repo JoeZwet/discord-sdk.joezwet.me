@@ -1,6 +1,6 @@
 import React from "react";
 import {BaseStyles, ThemeProvider} from "@primer/components";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import Home from "./pages/Home";
 import Versions from "./pages/Versions";
@@ -11,7 +11,7 @@ function App() {
     <>
       <ThemeProvider>
         <BaseStyles>
-          <Router>
+          <Router basename={"/"}>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/versions" component={Versions} />
