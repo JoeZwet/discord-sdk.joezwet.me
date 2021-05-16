@@ -1,0 +1,23 @@
+[
+  {
+    "name": "com.discord.gamesdk",
+    "description": "The Discord Game Sdk, repackaged for Unity.",
+    "source": "https://github.com/iosoftworks/com.discord.gamesdk",
+    "author": "JoeZwet",
+    "tags": [ "C#", "Unity" ]
+  },
+  {
+    "name": "py-discord-sdk",
+    "description": "A Python wrapper around Discord's Game SDK.",
+    "source": "https://github.com/LennyPhoenix/py-discord-sdk",
+    "author": "LennyPhoenix",
+    "tags": [ "Python" ]
+  },
+  {
+    "name": "GodotDiscordSDK",
+    "description": "A Discord Game SDK wrapper for Godot, written using GDNative C for Windows, Linux and MacOS.",
+    "source": "https://github.com/LennyPhoenix/GodotDiscordSDK",
+    "author": "LennyPhoenix",
+    "tags": [ "Godot" ]
+  }
+]
