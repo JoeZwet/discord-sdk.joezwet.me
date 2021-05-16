@@ -51,8 +51,7 @@ const Home: React.FC = () => {
             </ul>
 
             <Pagehead><Heading>Author</Heading></Pagehead>
-            The author of the site is <del>currently</del> not affiliated with Discord, Inc.
-            <br/>
+            The author of the site is not affiliated with Discord, Inc.<br/>
             The developer, <Link href="https://joezwet.me" target={"_blank"}>Joe van der Zwet</Link>, can be contacted at <BranchName><Link href="mailto:contact@joezwet.me" target={"_blank"}>contact@joezwet.me</Link></BranchName> or <BranchName>JoeZwet#0001</BranchName> on Discord.
           </Box>
           <Box/>

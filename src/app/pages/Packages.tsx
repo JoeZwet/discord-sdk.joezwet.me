@@ -10,7 +10,7 @@ const Packages: React.FC = () => {
     .then(res => res.json())
     .then((data: any[]) => {
       const tempItems: any[] = [];
-      data.forEach((item: any, index: number) => {
+      data.forEach((item: any) => {
         tempItems.push(<Package key={item.name} name={item.name} description={item.description} source={item.source} author={item.author} tags={item.tags} />);
       });
       setItems(tempItems);
