@@ -11,10 +11,10 @@ const Home: React.FC = () => {
           <Box>
             <Pagehead><Heading>About</Heading></Pagehead>
             <p>This website is an unofficial listing of known <Link href="https://discord.com/developers/docs/game-sdk/getting-started" target="_blank">
-              Discord Game Sdk</Link> versions.
+              Discord Game Sdk</Link> versions and third-party, open-sourced packages that re-bundle the sdk for all kinds of platforms.
               The versions list was last checked for updates on the 30th of March 2021, at 10:19pm NZST.
               <br/><br/>
-              An explanation of tags:
+              An explanation of version tags:
               <ul>
                 <li><Label variant="medium" bg="#6f42c1" m={1}>Latest</Label> This tag represents the version listed by Discord as latest, indicated by using <BranchName>latest</BranchName> in the download url.</li>
                 <li><Label key="recommended" variant="medium" bg="#28a745" m={1}>Recommended</Label> This is the version recommended for use by Discord, check the <BranchName>#gamesdk-and-dispatch-announcements</BranchName> channel in the Discord Developers server for more info.</li>

@@ -1,8 +1,21 @@
 import React from "react";
 import SiteHeader from "../components/SiteHeader";
 import {Box, Grid, Heading, Link, Pagehead} from "@primer/components";
+import Package from "../components/Package";
 
 const Packages: React.FC = () => {
+  const [items, setItems] = React.useState<Array<any>>([])
+
+  fetch("/packages.json")
+    .then(res => res.json())
+    .then((data: any[]) => {
+      const tempItems: any[] = [];
+      data.forEach((item: any, index: number) => {
+        tempItems.push(<Package key={item.name} name={item.name} description={item.description} source={item.source} author={item.author} tags={item.tags} />);
+      });
+      setItems(tempItems);
+    })
+    .catch(console.error);
 
   return (
     <>
@@ -11,12 +24,16 @@ const Packages: React.FC = () => {
         <Box />
         <Box>
           <Pagehead><Heading>Packages</Heading></Pagehead>
-          This page is currently in development but will eventually contain a comprehensive list of third-party wrappers and
-          re-packages of the Discord Game Sdk.
-
-          <br />
-          If you're a developer who has something that would fit this page, please create an issue on <Link href={"https://github.com/JoeZwet/discord.joezwet.dev/issues/new"} target={"_blank"}>Github</Link>.
+          If you're a developer who has something that would fit this page, create an issue on <Link href={"https://github.com/JoeZwet/discord.joezwet.dev/issues/new"} target={"_blank"}>Github</Link>.
+          <br/>
+          Please note that only open-sourced projects will be added, we are not accepting closed-sourced projects at this time.
         </Box>
+        <Box/>
+
+        <Box/>
+        <Grid gridGap={3} gridTemplateColumns={"repeat(2, 1fr)"}>
+          { items }
+        </Grid>
         <Box />
       </Grid>
     </>
