@@ -26,6 +26,8 @@ jobs:
 
       - run: yarn install
 
+      - run: yarn build
+
       - run: |
           git config --global user.name $user_name
           git config --global user.email $user_email
