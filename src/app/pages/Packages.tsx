@@ -1,6 +1,6 @@
 import React from "react";
 import SiteHeader from "../components/SiteHeader";
-import {Box, Grid, Heading, Link, Pagehead} from "@primer/components";
+import { Box, Grid, Heading, Link, Pagehead } from "@primer/components";
 import Package from "../components/Package";
 
 const Packages: React.FC = () => {
@@ -24,15 +24,15 @@ const Packages: React.FC = () => {
         <Box />
         <Box>
           <Pagehead><Heading>Packages</Heading></Pagehead>
-          If you're a developer who has something that would fit this page, create an issue on <Link href={"https://github.com/JoeZwet/discord.joezwet.dev/issues/new"} target={"_blank"}>Github</Link>.
-          <br/>
+          If you're a developer who has something that would fit this page, create an issue on <Link href={"https://github.com/PyrrhaDevs/sdk.discord.pyrrha.dev/issues/new"} target={"_blank"}>Github</Link>.
+          <br />
           Please note that only open-sourced projects will be added, we are not accepting closed-sourced projects at this time.
         </Box>
-        <Box/>
+        <Box />
 
-        <Box/>
+        <Box />
         <Grid gridGap={3} gridTemplateColumns={"repeat(2, 1fr)"}>
-          { items }
+          {items}
         </Grid>
         <Box />
       </Grid>
