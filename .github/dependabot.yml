@@ -1,0 +1,11 @@
+version: 1
+
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    ignore:
+      - dependency-name: "@types/node"
+        versions:
+          - "version-update:sermver-major"

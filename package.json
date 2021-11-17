@@ -13,6 +13,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.7",
+    "gh-pages": "^3.2.3",
     "history": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -27,7 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build -e docs -b main -m \"chore: publish site updates \""
   },
   "eslintConfig": {
     "extends": [
