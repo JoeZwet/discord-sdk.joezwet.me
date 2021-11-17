@@ -24,7 +24,7 @@ const Packages: React.FC = () => {
         <Box />
         <Box>
           <Pagehead><Heading>Packages</Heading></Pagehead>
-          If you're a developer who has something that would fit this page, create an issue on <Link href={"https://github.com/PyrrhaDevs/sdk.discord.pyrrha.dev/issues/new"} target={"_blank"}>Github</Link>.
+          If you're a developer who has something that would fit this page, create an issue on <Link href={"https://github.com/PyrrhaDevs/discord.pyrrha.dev/issues/new"} target={"_blank"}>Github</Link>.
           <br />
           Please note that only open-sourced projects will be added, we are not accepting closed-sourced projects at this time.
         </Box>

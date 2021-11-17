@@ -32,7 +32,7 @@ const SiteHeader: React.FC = () => {
                     </Header.Link>
                 </Header.Item>
                 <Header.Item>
-                    <Header.Link href="https://github.com/pyrrhadevs/sdk.discord.pyrrha.dev" fontSize={2}>
+                    <Header.Link href="https://github.com/pyrrhadevs/discord.pyrrha.dev" fontSize={2}>
                         <StyledOcticon icon={MarkGithubIcon} size={16} mr={2} />
                         <span>Source</span>
                     </Header.Link>

@@ -25,7 +25,7 @@ const Home: React.FC = () => {
           <Pagehead><Heading>versions.json</Heading></Pagehead>
           <BranchName>versions.json</BranchName> is a json file that contains all known versions of the Discord Game Sdk and label data indicating versions for the above labels.
           <br />
-          The file is located at <BranchName><Link href="https://sdk.discord.pyrrha.dev/versions.json" target={"_blank"}>https://sdk.discord.pyrrha.dev/versions.json</Link></BranchName>.
+          The file is located at <BranchName><Link href="https://discord.pyrrha.dev/versions.json" target={"_blank"}>https://discord.pyrrha.dev/versions.json</Link></BranchName>.
           <br />
           <br />
 
