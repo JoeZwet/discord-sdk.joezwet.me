@@ -2,7 +2,7 @@
   "labels": {
     "recommended": "2.5.6",
     "latest": "3.0.1",
-    "bleeding": "3.2.0"
+    "bleeding": "3.2.1"
   },
   "versions": [
     {
@@ -94,6 +94,12 @@
       "md5": "c54ff95ceb34b5c2b7e37aff03d5b09c",
       "publish": "2020-10-08T19:33:28.000Z",
       "size": "22.50223445892334"
+    },
+    {
+      "version": "3.2.1",
+      "md5": "73e5e1b3f8413a2c7184ef17476822f2",
+      "publish": "2022-04-26T14:00:00.000Z",
+      "size": "31.5"
     }
   ]
 }
