@@ -52,7 +52,7 @@ const Home: React.FC = () => {
 
           <Pagehead><Heading>Author</Heading></Pagehead>
           The author of this site is not affiliated with Discord, Inc.<br />
-          The developer, <Link href="https://pyrrha.dev" target={"_blank"}>Pyrrha van der Zwet</Link>, can be contacted at <BranchName>PyrrhaDev#0001</BranchName> on Discord.
+          The developer, <Link href="https://pyrrha.dev" target={"_blank"}>Pyrrha Wills</Link>, can be contacted at <BranchName>JustPyrrha#0001</BranchName> on Discord.
         </Box>
         <Box />
       </Grid>
